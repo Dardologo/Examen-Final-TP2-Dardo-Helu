@@ -1,0 +1,84 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "TP FINAL TP2",
+    "dateExported": "2023-07-03T23:02:16.948Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a5f3d8ba-89c4-4bf4-8fa7-a9282c8213c5",
+            "colId": "5cd25bc3-d63e-4019-8419-50bcc8f33130",
+            "containerId": "",
+            "name": "REGISTRAR PALABRA",
+            "url": "http://localhost:3000/palabras",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-03T22:36:28.268Z",
+            "modified": "2023-07-03T22:57:45.616Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"palabra\": \"hola\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2a3e9ecb-3739-43c9-935f-20a9c3997b97",
+            "colId": "5cd25bc3-d63e-4019-8419-50bcc8f33130",
+            "containerId": "",
+            "name": "ELIMINAR PALABRA",
+            "url": "http://localhost:3000/palabras/co",
+            "method": "DELETE",
+            "sortNum": 15000,
+            "created": "2023-07-03T22:39:55.362Z",
+            "modified": "2023-07-03T22:58:14.228Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "917a1742-8b38-4397-ae9a-aff0aa54d87f",
+            "colId": "5cd25bc3-d63e-4019-8419-50bcc8f33130",
+            "containerId": "",
+            "name": "OBTENER FRASE",
+            "url": "http://localhost:3000/frase",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-07-03T22:41:17.164Z",
+            "modified": "2023-07-03T22:42:06.068Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9fc0eeb3-092a-41b9-a43b-d3b35d57695d",
+            "colId": "5cd25bc3-d63e-4019-8419-50bcc8f33130",
+            "containerId": "",
+            "name": "GENERAR PALABRAS",
+            "url": "http://localhost:3000/generar/2",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-07-03T22:39:19.705Z",
+            "modified": "2023-07-03T22:42:38.276Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a2eae284-a720-43d4-9597-becc469b544b",
+            "colId": "5cd25bc3-d63e-4019-8419-50bcc8f33130",
+            "containerId": "",
+            "name": "INFORMACION",
+            "url": "http://localhost:3000/informacion",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-07-03T22:45:22.269Z",
+            "modified": "2023-07-03T22:45:31.536Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
